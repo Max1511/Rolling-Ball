@@ -3,14 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class BallFall : MonoBehaviour
 {
-    [SerializeField] private float _lowHeight = -6;
+    [SerializeField] private float _lowHeight;
 
-    void Update()
+    private void Update()
     {
         if (transform.position.y <= _lowHeight)
         {
-            // restart game
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

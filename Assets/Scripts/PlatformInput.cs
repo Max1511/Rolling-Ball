@@ -6,15 +6,21 @@ public class PlatformInput : MonoBehaviour
 {
     private bool _gyroscopeEnabled;
     private Gyroscope _gyroscope;
+    private Rigidbody _rigitbody;
 
-    [SerializeField] private float _speed = 0.1f;
+    [SerializeField] private float _speed;
 
-    void Start()
+    private void Awake()
+    {
+        _rigitbody = GetComponent<Rigidbody>();
+    }
+
+    private void Start()
     {
         _gyroscopeEnabled = EnableGyroscope();
     }
 
-    void Update()
+    private void FixedUpdate()
     {
         if (_gyroscopeEnabled)
         {
@@ -53,6 +59,6 @@ public class PlatformInput : MonoBehaviour
         if (rotationZ <= -1)
             rotationZ = -1;
 
-        transform.rotation = new Quaternion(rotationX, transform.rotation.y, rotationZ, transform.rotation.w);
+        _rigitbody.rotation = new Quaternion(rotationX, _rigitbody.rotation.y, rotationZ, _rigitbody.rotation.w);
     }
 }

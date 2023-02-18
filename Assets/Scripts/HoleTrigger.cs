@@ -4,11 +4,15 @@ public class HoleTrigger : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        other.gameObject.layer = 7;
+        if (other.gameObject.layer != LayerMask.NameToLayer("Ball"))
+            return;
+        other.gameObject.layer = LayerMask.NameToLayer("Falling Ball");
+        Debug.Log("Falling Ball");
     }
 
     private void OnTriggerExit(Collider other)
     {
-        other.gameObject.layer = 0;
+        other.gameObject.layer = LayerMask.NameToLayer("Ball");
+        Debug.Log("Default");
     }
 }

@@ -121,6 +121,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"H:/Program Files/Unity/2020.3.32f1/Editor/Project/Rolling Ball/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
@@ -331,6 +332,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Services.Core.Environments.ref.dll"
@@ -355,8 +358,43 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BallFall.cs"
+"Assets/Scripts/FinishTrigger.cs"
 "Assets/Scripts/HoleTrigger.cs"
 "Assets/Scripts/PlatformInput.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
+"Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 -langversion:9.0
 
 /deterministic
